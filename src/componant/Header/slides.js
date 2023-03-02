@@ -5,7 +5,7 @@ import "./Header.css";
 class Slides extends Component {
   render() {
     return (
-      <section className="slide_Testimonials">
+      <section className="slide_Testimonials" id="EnSlide">
         <div className="row ">
           <div className="col-med-12">
             <p>Testimonials</p>

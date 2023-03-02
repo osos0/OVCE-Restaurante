@@ -10,16 +10,18 @@ import { Component } from "react";
 class ArNavs extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg" id="ARnave">
+      <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" col-sm-12 " id="ARlis">
-              <Nav.Link href="/">
+              {/* <Nav.Link href="/"> */}
+              <Nav.Link href="/OVCE-Restaurantel">
                 <button className="ENbtn">EN</button>{" "}
               </Nav.Link>
-              <Nav.Link href="/"> التعلميات </Nav.Link>
-              <Nav.Link href="/#slidePlace"> تقيمات </Nav.Link>
+              {/* <Nav.Link href="/"> التعلميات </Nav.Link> */}
+              <Nav.Link href="/AR"> ملخص </Nav.Link>
+              <Nav.Link href="#slidePlace"> تقيمات </Nav.Link>
               <Nav.Link href="/arexplore"> اكتشف </Nav.Link>
               <Nav.Link href="/araboutme"> من نحن </Nav.Link>
               <Nav.Link href="/ar"> الرئيسيه </Nav.Link>

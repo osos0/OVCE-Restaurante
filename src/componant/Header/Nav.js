@@ -10,17 +10,19 @@ class Navs extends Component {
     return (
       <Navbar bg="light" expand="lg" id="nave">
         <Container>
-          <Navbar.Brand href="/">
+          {/* <Navbar.Brand href="/"> */}
+          <Navbar.Brand href="/OVCE-Restaurantel">
             <img src={logo} alt=""></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" col-sm-12 " id="lis">
-              <Nav.Link href="/">Home</Nav.Link>
+              {/* <Nav.Link href="/">Home</Nav.Link> */}
+              <Nav.Link href="/OVCE-Restaurantel">Home</Nav.Link>
               <Nav.Link href="/aboutme">About me</Nav.Link>
               <Nav.Link href="/explore">Explore Foods</Nav.Link>
-              <Nav.Link href="/">Reviews</Nav.Link>
-              <Nav.Link href="/">FAQ</Nav.Link>
+              <Nav.Link href="#EnSlide">Reviews</Nav.Link>
+              <Nav.Link href="/OVCE-Restaurantel">FAQ</Nav.Link>
               <Nav.Link href="/AR">
                 <button className="ENbtn">AR</button>{" "}
               </Nav.Link>
