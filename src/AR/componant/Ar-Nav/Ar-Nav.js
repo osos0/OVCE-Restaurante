@@ -16,7 +16,7 @@ class ArNavs extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" col-sm-12 " id="ARlis">
               {/* <Nav.Link href="/"> */}
-              <Nav.Link href="/OVCE-Restaurantel">
+              <Nav.Link href="/OVCE-Restaurante">
                 <button className="ENbtn">EN</button>{" "}
               </Nav.Link>
               {/* <Nav.Link href="/"> التعلميات </Nav.Link> */}

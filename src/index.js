@@ -14,7 +14,7 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     // path: "/",
-    path: "/OVCE-Restaurantel",
+    path: "/OVCE-Restaurante",
     element: <App />,
     errorElement: (
       <div>
